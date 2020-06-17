@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Result renders 1`] = `
+<div class="text-center">
+  <p>
+    You got <strong>2</strong> correct!
+  </p>
+  <p>Thank you for playing!</p>
+  <b-button-stub variant="info" type="button" tag="button" target="_self">
+    Play again!
+  </b-button-stub>
+</div>
+`;
