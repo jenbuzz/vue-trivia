@@ -29,7 +29,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import QuestionBox from '@/components/QuestionBox.vue';
 import QuestionCounter from '@/components/QuestionCounter.vue';
 import Result from '@/components/Result.vue';
-import questions from '@/data';
+import questions from '@/data/questions.json';
 
 @Component({
     components: {
