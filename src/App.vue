@@ -5,20 +5,20 @@
                 <h2 class="text-center mb-3">Trivia Quiz</h2>
             </b-col>
         </b-row>
-        <QuestionCounter
+        <question-counter
             v-if="!hasCompleted"
             :currentCount="currentQuestionIndex + 1"
             :totalCount="questions.length"
         />
         <b-row align-h="center">
             <b-col sm="6">
-                <QuestionBox
+                <question-box
                     v-if="!hasCompleted"
                     :currentQuestion="questions[currentQuestionIndex]"
                     :nextQuestion="nextQuestion"
                     :incrementCorrectAnswers="incrementCorrectAnswers"
                 />
-                <Result v-if="hasCompleted" :correctAnswers="correctAnswers" :reset="reset" />
+                <result v-if="hasCompleted" :correctAnswers="correctAnswers" :reset="reset" />
             </b-col>
         </b-row>
     </b-container>
@@ -33,9 +33,9 @@ import questions from '@/data/questions.json';
 
 @Component({
     components: {
-        QuestionBox,
-        QuestionCounter,
-        Result,
+        'question-box': QuestionBox,
+        'question-counter': QuestionCounter,
+        result: Result,
     },
 })
 export default class App extends Vue {
