@@ -45,7 +45,7 @@ export default class App extends Vue {
     private hasCompleted = false;
 
     nextQuestion() {
-        this.currentQuestionIndex = this.currentQuestionIndex + 1;
+        this.currentQuestionIndex++;
 
         if (this.currentQuestionIndex >= this.questions.length) {
             this.hasCompleted = true;
