@@ -43,7 +43,11 @@ export default class Categories extends Vue {
         align-items: center;
         width: 140px;
         margin: 0 0.5rem;
-        background: #eeeeee;
+        background: #e2e2e2;
+
+        &:hover {
+            background: #feb300;
+        }
 
         img {
             width: 60px;
