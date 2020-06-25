@@ -2,7 +2,7 @@
     <b-container>
         <b-row align-h="center">
             <b-col sm="6">
-                <h2 class="text-center mb-3">Trivia Quiz</h2>
+                <h2 class="text-center mb-3" role="button" @click="reset">Trivia Quiz</h2>
             </b-col>
         </b-row>
         <categories v-if="!currentCategory" :setCurrentCategory="setCurrentCategory"></categories>
