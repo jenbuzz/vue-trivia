@@ -12,6 +12,18 @@
         "incorrect": ["Democrat", "Independent", "Whig"]
     },
     {
+        "difficulty": "easy",
+        "question": "What was William Frederick Cody better known as?",
+        "correct": "Buffalo Bill",
+        "incorrect": ["Billy the Kid", "Wild Bill Hickok", "Pawnee Bill"]
+    },
+    {
+        "difficulty": "easy",
+        "question": "What is the historical name of Sri Lanka?",
+        "correct": "Ceylon",
+        "incorrect": ["Myanmar", "Colombo", "Badulla"]
+    },
+    {
         "difficulty": "medium",
         "question": "What is the bloodiest event in United States history, in terms of casualties?",
         "correct": "Battle of Antietam",
@@ -22,6 +34,24 @@
         "question": "What was Genghis Khan&#039;s real name?",
         "correct": "Tem&uuml;jin",
         "incorrect": ["M&ouml;ngke", "&Ouml;gedei", "Tem&uuml;r"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "Which of these countries was NOT a part of the Soviet Union?",
+        "correct": "Afghanistan",
+        "incorrect": ["Turkmenistan", "Kazakhstan", "Uzbekistan"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "What is the oldest US state?",
+        "correct": "Delaware",
+        "incorrect": ["Rhode Island", "Maine", "Virginia"]
+    },
+    {
+        "difficulty": "hard",
+        "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+        "correct": "Hong Kong",
+        "incorrect": ["India", "Australia", "Ireland"]
     },
     {
         "difficulty": "hard",

@@ -12,10 +12,34 @@
         "incorrect": ["Leonardo da Vinci", "Pablo Picasso", "Raphael"]
     },
     {
+        "difficulty": "easy",
+        "question": "Which painting was not made by Vincent Van Gogh?",
+        "correct": "The Ninth Wave",
+        "incorrect": ["Caf&eacute; Terrace at Night", "Bedroom In Arles", "Starry Night"]
+    },
+    {
+        "difficulty": "easy",
+        "question": "Which Van Gogh painting depicts the view from his asylum in Saint-R&eacute;my-de-Provence in southern France?",
+        "correct": "The Starry Night",
+        "incorrect": ["Wheatfields with Crows", "The Sower with Setting Sun", "The Church at Auvers"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "Which artist&rsquo;s studio was known as &#039;The Factory&#039;?",
+        "correct": "Andy Warhol",
+        "incorrect": ["Roy Lichtenstein", "David Hockney", "Peter Blake"]
+    },
+    {
         "difficulty": "medium",
         "question": "What is the bloodiest event in United States history, in terms of casualties?",
         "correct": "Battle of Antietam",
         "incorrect": ["Pearl Harbor", "September 11th", "D-Day"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "What nationality was the surrealist painter Salvador Dali?",
+        "correct": "Spanish",
+        "incorrect": ["Italian", "French", "Portuguese"]
     },
     {
         "difficulty": "medium",
