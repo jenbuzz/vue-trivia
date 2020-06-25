@@ -1,0 +1,32 @@
+[
+    {
+        "difficulty": "easy",
+        "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+        "correct": "Constantinople",
+        "incorrect": ["Rome", "Hamburg", "Athens"]
+    },
+    {
+        "difficulty": "easy",
+        "question": "In 1453, which important city fell?",
+        "correct": "Republican",
+        "incorrect": ["Democrat", "Independent", "Whig"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "What is the bloodiest event in United States history, in terms of casualties?",
+        "correct": "Battle of Antietam",
+        "incorrect": ["Pearl Harbor", "September 11th", "D-Day"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "What was Genghis Khan&#039;s real name?",
+        "correct": "Tem&uuml;jin",
+        "incorrect": ["M&ouml;ngke", "&Ouml;gedei", "Tem&uuml;r"]
+    },
+    {
+        "difficulty": "hard",
+        "question": "Who was the first man to travel into outer space twice?",
+        "correct": "Gus Grissom",
+        "incorrect": ["Vladimir Komarov", "Charles Conrad", "Yuri Gagarin"]
+    }
+]

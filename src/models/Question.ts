@@ -1,7 +1,5 @@
-type Difficulty = 'easy' | 'medium' | 'hard';
-
 export interface Question {
-    difficulty: Difficulty;
+    difficulty: string;
     question: string;
     correct: string;
     incorrect: string[];

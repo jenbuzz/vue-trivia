@@ -1,0 +1,38 @@
+[
+    {
+        "difficulty": "easy",
+        "question": "Who painted the Mona Lisa?",
+        "correct": "Leonardo da Vinci",
+        "incorrect": ["Pablo Picasso", "Claude Monet", "Vincent van Gogh"]
+    },
+    {
+        "difficulty": "easy",
+        "question": "Who painted the Sistine Chapel?",
+        "correct": "Michelangelo",
+        "incorrect": ["Leonardo da Vinci", "Pablo Picasso", "Raphael"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "What is the bloodiest event in United States history, in terms of casualties?",
+        "correct": "Battle of Antietam",
+        "incorrect": ["Pearl Harbor", "September 11th", "D-Day"]
+    },
+    {
+        "difficulty": "medium",
+        "question": "What was Genghis Khan&#039;s real name?",
+        "correct": "Tem&uuml;jin",
+        "incorrect": ["M&ouml;ngke", "&Ouml;gedei", "Tem&uuml;r"]
+    },
+    {
+        "difficulty": "hard",
+        "question": "The painting &quot;The Starry Night&quot; by Vincent van Gogh was part of which art movement?",
+        "correct": "Post-Impressionism",
+        "incorrect": ["Romanticism", "Neoclassical", "Impressionism"]
+    },
+    {
+        "difficulty": "hard",
+        "question": "What French sculptor designed the Statue of Liberty?",
+        "correct": "Fr&eacute;d&eacute;ric Auguste Bartholdi",
+        "incorrect": ["Jean-L&eacute;on G&eacute;r&ocirc;me", "Auguste Rodin", "Henri Matisse"]
+    }
+]
