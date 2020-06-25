@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Categories renders 1`] = `
+<b-row-stub tag="div" alignh="center">
+  <b-col-stub sm="6" tag="div" class="categories text-center"><button type="button" class="btn btn-category"><img alt="Art Category" src="../assets/art.svg"> <span>Art</span></button> <button type="button" class="btn btn-category"><img alt="Entertainment Category" src="../assets/entertainment.svg"> <span>Entertainment</span></button> <button type="button" class="btn btn-category"><img alt="History Category" src="../assets/history.svg"> <span>History</span></button></b-col-stub>
+</b-row-stub>
+`;

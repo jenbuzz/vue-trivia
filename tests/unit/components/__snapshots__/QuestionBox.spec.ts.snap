@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: QuestionBox renders 1`] = `
+<div>
+  <p>Who painted the Mona Lisa?</p>
+  <b-list-group-stub tag="div">
+    <b-list-group-item-stub tag="div" target="_self" class=""><span>Leonardo da Vinci</span></b-list-group-item-stub>
+    <b-list-group-item-stub tag="div" target="_self" class=""><span>Vincent van Gogh</span></b-list-group-item-stub>
+    <b-list-group-item-stub tag="div" target="_self" class=""><span>Pablo Picasso</span></b-list-group-item-stub>
+    <b-list-group-item-stub tag="div" target="_self" class=""><span>Claude Monet</span></b-list-group-item-stub>
+  </b-list-group-stub>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: QuestionCounter renders 1`] = `
+<b-row-stub tag="div" alignh="center">
+  <b-col-stub sm="6" tag="div">
+    <p class="text-center mb-3">1 / 2</p>
+  </b-col-stub>
+</b-row-stub>
+`;
