@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Headline renders 1`] = `
+<b-row-stub tag="div" alignh="center">
+  <b-col-stub sm="6" tag="div">
+    <h2 role="button" class="text-center mb-3">Trivia Quiz</h2>
+  </b-col-stub>
+</b-row-stub>
+`;

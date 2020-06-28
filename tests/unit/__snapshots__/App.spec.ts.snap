@@ -2,11 +2,7 @@
 
 exports[`Component: App renders 1`] = `
 <b-container-stub tag="div">
-  <b-row-stub tag="div" alignh="center">
-    <b-col-stub sm="6" tag="div">
-      <h2 role="button" class="text-center mb-3">Trivia Quiz</h2>
-    </b-col-stub>
-  </b-row-stub>
+  <headline-stub reset="function () { [native code] }"></headline-stub>
   <categories-stub setcurrentcategory="function () { [native code] }"></categories-stub>
   <!---->
   <!---->
