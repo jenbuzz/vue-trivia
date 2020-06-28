@@ -1,7 +1,7 @@
 <template>
     <div>
         <p v-html="currentQuestion.question"></p>
-        <b-list-group>
+        <b-list-group :class="[disableList && 'disabled']">
             <b-list-group-item
                 v-for="(answer, index) in answers"
                 :key="index"
@@ -27,10 +27,12 @@ export default class QuestionBox extends Vue {
     private answers: string[] | null = null;
     private selectedAnswer: number | null = null;
     private correctAnswer: number | null = null;
+    private disableList = false;
 
     @Watch('currentQuestion', { immediate: true })
     onNewQuestion() {
         this.selectedAnswer = null;
+        this.disableList = false;
 
         const answers = [...this.currentQuestion.incorrect, this.currentQuestion.correct];
 
@@ -47,6 +49,7 @@ export default class QuestionBox extends Vue {
 
     setSelectedAnswer(index: number) {
         this.selectedAnswer = index;
+        this.disableList = true;
 
         if (this.selectedAnswer === this.correctAnswer) {
             this.incrementCorrectAnswers();
@@ -78,24 +81,32 @@ p {
 
 .list-group {
     border: 1px solid #222222;
-}
 
-.list-group-item {
-    border: 0;
-    cursor: pointer;
+    .list-group-item {
+        border: 0;
+        cursor: pointer;
 
-    &:hover {
-        background: #e2e2e2;
+        &:hover {
+            background: #e2e2e2;
+        }
+
+        &.positive {
+            background: #68d388;
+            color: #ffffff;
+        }
+
+        &.negative {
+            background: #ff0028;
+            color: #ffffff;
+        }
     }
 
-    &.positive {
-        background: #68d388;
-        color: #ffffff;
-    }
-
-    &.negative {
-        background: #ff0028;
-        color: #ffffff;
+    &.disabled {
+        .list-group-item:not(.positive):not(.negative) {
+            &:hover {
+                background: none;
+            }
+        }
     }
 }
 </style>
