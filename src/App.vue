@@ -1,7 +1,7 @@
 <template>
     <b-container>
         <headline :reset="reset" />
-        <categories v-if="!currentCategory" :setCurrentCategory="setCurrentCategory"></categories>
+        <categories v-if="!currentCategory" :setCurrentCategory="setCurrentCategory" />
         <question-counter
             v-if="!hasCompleted && currentCategory"
             :currentCount="currentQuestionIndex + 1"
@@ -43,11 +43,11 @@ import questionsHistory from '@/data/history.json';
     },
 })
 export default class App extends Vue {
-    private questions: Question[] = [];
-    private currentQuestionIndex = 0;
-    private correctAnswers = 0;
     private hasCompleted = false;
+    private correctAnswers = 0;
     private currentCategory = '';
+    private currentQuestionIndex = 0;
+    private questions: Question[] = [];
 
     setCurrentCategory(category: string) {
         this.currentCategory = category;
@@ -78,10 +78,10 @@ export default class App extends Vue {
     }
 
     reset() {
-        this.currentQuestionIndex = 0;
         this.hasCompleted = false;
         this.correctAnswers = 0;
         this.currentCategory = '';
+        this.currentQuestionIndex = 0;
         this.questions = [];
     }
 }
