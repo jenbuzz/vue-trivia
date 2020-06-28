@@ -1,10 +1,6 @@
 <template>
     <b-container>
-        <b-row align-h="center">
-            <b-col sm="6">
-                <h2 class="text-center mb-3" role="button" @click="reset">Trivia Quiz</h2>
-            </b-col>
-        </b-row>
+        <headline :reset="reset" />
         <categories v-if="!currentCategory" :setCurrentCategory="setCurrentCategory"></categories>
         <question-counter
             v-if="!hasCompleted && currentCategory"
@@ -28,6 +24,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import Categories from '@/components/Categories.vue';
+import Headline from '@/components/Headline.vue';
 import QuestionBox from '@/components/QuestionBox.vue';
 import QuestionCounter from '@/components/QuestionCounter.vue';
 import Result from '@/components/Result.vue';
@@ -39,6 +36,7 @@ import questionsHistory from '@/data/history.json';
 @Component({
     components: {
         categories: Categories,
+        headline: Headline,
         'question-box': QuestionBox,
         'question-counter': QuestionCounter,
         result: Result,
